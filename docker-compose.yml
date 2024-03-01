@@ -9,4 +9,4 @@ services:
       - ./:/usr/src/app/
     command: ['yarn', 'dev']
     ports:
-      - "5432:5432"
+      - "8000:8000"
