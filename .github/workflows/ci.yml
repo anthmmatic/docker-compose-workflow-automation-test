@@ -39,7 +39,7 @@ jobs:
       # run tests -------------------------------------------------------------
 
       - name: Run unit tests for Api
-        run: 'curl -v http://localhost:8000'
+        run: 'curl -v -I http://localhost:8000'
 
       # stop docker-compose ---------------------------------------------------
 
